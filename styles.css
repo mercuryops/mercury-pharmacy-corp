@@ -139,15 +139,16 @@ p { line-height: 1.75; }
 .logo-mark-img {
      position: relative;
      z-index: 1;
-     width: 76%; height: 76%;
+     width: 84%; height: 84%;
      object-fit: contain;
-     filter: grayscale(1) contrast(1.1);
+     filter: contrast(1.08) brightness(1.04) saturate(0.9);
 }
 .logo-mark-face::after {
      content: "";
      position: absolute; inset: 0;
-     background: linear-gradient(135deg, var(--slate) 0%, var(--teal) 100%);
-     mix-blend-mode: color;
+     background: linear-gradient(135deg, var(--teal) 0%, var(--slate) 50%, var(--gold) 100%);
+     mix-blend-mode: soft-light;
+     opacity: 0.9;
      pointer-events: none;
 }
 .logo-text {
