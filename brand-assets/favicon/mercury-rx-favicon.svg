@@ -1,0 +1,27 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .orbit { fill:none; stroke:#1C1F26; stroke-width:5.4; }
+      .amber { fill:#C98A3E; }
+      .core { fill:#C98A3E; stroke:#1C1F26; stroke-width:3; }
+      .planet { fill:#9AA5B1; stroke:#1C1F26; stroke-width:2.8; }
+    </style>
+  </defs>
+  <ellipse cx="73.12" cy="100.00" rx="64.00" ry="58.08" transform="rotate(0 100 100)" class="orbit"/>
+  <ellipse cx="73.12" cy="100.00" rx="64.00" ry="58.08" transform="rotate(36 100 100)" class="orbit"/>
+  <ellipse cx="73.12" cy="100.00" rx="64.00" ry="58.08" transform="rotate(72 100 100)" class="orbit"/>
+  <g transform="translate(100,100)">
+    <path d="M 13.00 -5.00 C 19.08 -13.00 26.30 6.00 32.00 10.00 C 24.02 13.50 17.18 5.35 13.00 5.00 Z" transform="rotate(0.00)" class="amber"/>
+    <path d="M 13.00 -5.00 C 19.08 -13.00 26.30 6.00 32.00 10.00 C 24.02 13.50 17.18 5.35 13.00 5.00 Z" transform="rotate(36.00)" class="amber"/>
+    <path d="M 13.00 -5.00 C 19.08 -13.00 26.30 6.00 32.00 10.00 C 24.02 13.50 17.18 5.35 13.00 5.00 Z" transform="rotate(72.00)" class="amber"/>
+    <path d="M 13.00 -5.00 C 19.08 -13.00 26.30 6.00 32.00 10.00 C 24.02 13.50 17.18 5.35 13.00 5.00 Z" transform="rotate(108.00)" class="amber"/>
+    <path d="M 13.00 -5.00 C 19.08 -13.00 26.30 6.00 32.00 10.00 C 24.02 13.50 17.18 5.35 13.00 5.00 Z" transform="rotate(144.00)" class="amber"/>
+    <path d="M 13.00 -5.00 C 19.08 -13.00 26.30 6.00 32.00 10.00 C 24.02 13.50 17.18 5.35 13.00 5.00 Z" transform="rotate(180.00)" class="amber"/>
+    <path d="M 13.00 -5.00 C 19.08 -13.00 26.30 6.00 32.00 10.00 C 24.02 13.50 17.18 5.35 13.00 5.00 Z" transform="rotate(216.00)" class="amber"/>
+    <path d="M 13.00 -5.00 C 19.08 -13.00 26.30 6.00 32.00 10.00 C 24.02 13.50 17.18 5.35 13.00 5.00 Z" transform="rotate(252.00)" class="amber"/>
+    <path d="M 13.00 -5.00 C 19.08 -13.00 26.30 6.00 32.00 10.00 C 24.02 13.50 17.18 5.35 13.00 5.00 Z" transform="rotate(288.00)" class="amber"/>
+    <path d="M 13.00 -5.00 C 19.08 -13.00 26.30 6.00 32.00 10.00 C 24.02 13.50 17.18 5.35 13.00 5.00 Z" transform="rotate(324.00)" class="amber"/>
+  </g>
+  <circle cx="100" cy="100" r="13" class="core"/>
+  <circle cx="168" cy="100" r="10" class="planet"/>
+</svg>
