@@ -1,0 +1,74 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="sphereClip">
+      <circle cx="0" cy="0" r="20.5"/>
+    </clipPath>
+    <style>
+      .orbit { fill:none; stroke:#1C1F26; stroke-width:1.7; }
+      .amber { fill:#C98A3E; }
+      .core { fill:#C98A3E; stroke:#1C1F26; stroke-width:1.3; }
+      .planetbase { fill:#9AA5B1; }
+      .planethex { fill:none; stroke:#5B6470; stroke-width:1.1; opacity:0.75; }
+      .planetoutline { fill:none; stroke:#1C1F26; stroke-width:1.6; }
+      .planethighlight { fill:#C9D0D6; opacity:0.55; }
+    </style>
+  </defs>
+
+  <defs>
+    <style>
+      .orbit { fill:none; stroke:#1C1F26; stroke-width:1.7; }
+      .amber { fill:#C98A3E; }
+      .core { fill:#C98A3E; stroke:#1C1F26; stroke-width:1.3; }
+    </style>
+  </defs>
+  <g>
+    <ellipse cx="70.30" cy="100.00" rx="66.00" ry="58.94" transform="rotate(0 100 100)" class="orbit"/>
+    <ellipse cx="70.30" cy="100.00" rx="66.00" ry="58.94" transform="rotate(24 100 100)" class="orbit"/>
+    <ellipse cx="70.30" cy="100.00" rx="66.00" ry="58.94" transform="rotate(48 100 100)" class="orbit"/>
+    <ellipse cx="70.30" cy="100.00" rx="66.00" ry="58.94" transform="rotate(72 100 100)" class="orbit"/>
+    <ellipse cx="70.30" cy="100.00" rx="66.00" ry="58.94" transform="rotate(96 100 100)" class="orbit"/>
+    <ellipse cx="70.30" cy="100.00" rx="66.00" ry="58.94" transform="rotate(120 100 100)" class="orbit"/>
+  </g>
+  <g transform="translate(100,100)">
+    <path d="M 8.00 -2.60 C 12.48 -7.10 17.80 4.25 22.00 6.50 C 16.12 8.50 11.08 2.80 8.00 2.60 Z" transform="rotate(0.00)" class="amber"/>
+    <path d="M 8.00 -2.60 C 12.48 -7.10 17.80 4.25 22.00 6.50 C 16.12 8.50 11.08 2.80 8.00 2.60 Z" transform="rotate(30.00)" class="amber"/>
+    <path d="M 8.00 -2.60 C 12.48 -7.10 17.80 4.25 22.00 6.50 C 16.12 8.50 11.08 2.80 8.00 2.60 Z" transform="rotate(60.00)" class="amber"/>
+    <path d="M 8.00 -2.60 C 12.48 -7.10 17.80 4.25 22.00 6.50 C 16.12 8.50 11.08 2.80 8.00 2.60 Z" transform="rotate(90.00)" class="amber"/>
+    <path d="M 8.00 -2.60 C 12.48 -7.10 17.80 4.25 22.00 6.50 C 16.12 8.50 11.08 2.80 8.00 2.60 Z" transform="rotate(120.00)" class="amber"/>
+    <path d="M 8.00 -2.60 C 12.48 -7.10 17.80 4.25 22.00 6.50 C 16.12 8.50 11.08 2.80 8.00 2.60 Z" transform="rotate(150.00)" class="amber"/>
+    <path d="M 8.00 -2.60 C 12.48 -7.10 17.80 4.25 22.00 6.50 C 16.12 8.50 11.08 2.80 8.00 2.60 Z" transform="rotate(180.00)" class="amber"/>
+    <path d="M 8.00 -2.60 C 12.48 -7.10 17.80 4.25 22.00 6.50 C 16.12 8.50 11.08 2.80 8.00 2.60 Z" transform="rotate(210.00)" class="amber"/>
+    <path d="M 8.00 -2.60 C 12.48 -7.10 17.80 4.25 22.00 6.50 C 16.12 8.50 11.08 2.80 8.00 2.60 Z" transform="rotate(240.00)" class="amber"/>
+    <path d="M 8.00 -2.60 C 12.48 -7.10 17.80 4.25 22.00 6.50 C 16.12 8.50 11.08 2.80 8.00 2.60 Z" transform="rotate(270.00)" class="amber"/>
+    <path d="M 8.00 -2.60 C 12.48 -7.10 17.80 4.25 22.00 6.50 C 16.12 8.50 11.08 2.80 8.00 2.60 Z" transform="rotate(300.00)" class="amber"/>
+    <path d="M 8.00 -2.60 C 12.48 -7.10 17.80 4.25 22.00 6.50 C 16.12 8.50 11.08 2.80 8.00 2.60 Z" transform="rotate(330.00)" class="amber"/>
+  </g>
+  <circle cx="100" cy="100" r="8" class="core"/>
+
+  <g transform="translate(136.30,100) scale(0.2683)">
+    <circle cx="0" cy="0" r="20.5" class="planetbase"/>
+    <g clip-path="url(#sphereClip)" class="planethex">
+<path d="M -13.33 -11.43 L -16.57 -5.83 L -23.03 -5.83 L -26.27 -11.43 L -23.03 -17.03 L -16.57 -17.03 Z"/>
+<path d="M -13.33 0.00 L -16.57 5.60 L -23.03 5.60 L -26.27 0.00 L -23.03 -5.60 L -16.57 -5.60 Z"/>
+<path d="M -13.33 11.43 L -16.57 17.03 L -23.03 17.03 L -26.27 11.43 L -23.03 5.83 L -16.57 5.83 Z"/>
+<path d="M -3.43 -17.15 L -6.67 -11.55 L -13.13 -11.55 L -16.37 -17.15 L -13.13 -22.75 L -6.67 -22.75 Z"/>
+<path d="M -3.43 -5.72 L -6.67 -0.11 L -13.13 -0.11 L -16.37 -5.72 L -13.13 -11.32 L -6.67 -11.32 Z"/>
+<path d="M -3.43 5.72 L -6.67 11.32 L -13.13 11.32 L -16.37 5.72 L -13.13 0.11 L -6.67 0.11 Z"/>
+<path d="M -3.43 17.15 L -6.67 22.75 L -13.13 22.75 L -16.37 17.15 L -13.13 11.55 L -6.67 11.55 Z"/>
+<path d="M 6.47 -22.86 L 3.23 -17.26 L -3.23 -17.26 L -6.47 -22.86 L -3.23 -28.46 L 3.23 -28.46 Z"/>
+<path d="M 6.47 -11.43 L 3.23 -5.83 L -3.23 -5.83 L -6.47 -11.43 L -3.23 -17.03 L 3.23 -17.03 Z"/>
+<path d="M 6.47 0.00 L 3.23 5.60 L -3.23 5.60 L -6.47 0.00 L -3.23 -5.60 L 3.23 -5.60 Z"/>
+<path d="M 6.47 11.43 L 3.23 17.03 L -3.23 17.03 L -6.47 11.43 L -3.23 5.83 L 3.23 5.83 Z"/>
+<path d="M 6.47 22.86 L 3.23 28.46 L -3.23 28.46 L -6.47 22.86 L -3.23 17.26 L 3.23 17.26 Z"/>
+<path d="M 16.37 -17.15 L 13.13 -11.55 L 6.67 -11.55 L 3.43 -17.15 L 6.67 -22.75 L 13.13 -22.75 Z"/>
+<path d="M 16.37 -5.72 L 13.13 -0.11 L 6.67 -0.11 L 3.43 -5.72 L 6.67 -11.32 L 13.13 -11.32 Z"/>
+<path d="M 16.37 5.72 L 13.13 11.32 L 6.67 11.32 L 3.43 5.72 L 6.67 0.11 L 13.13 0.11 Z"/>
+<path d="M 16.37 17.15 L 13.13 22.75 L 6.67 22.75 L 3.43 17.15 L 6.67 11.55 L 13.13 11.55 Z"/>
+<path d="M 26.27 -11.43 L 23.03 -5.83 L 16.57 -5.83 L 13.33 -11.43 L 16.57 -17.03 L 23.03 -17.03 Z"/>
+<path d="M 26.27 0.00 L 23.03 5.60 L 16.57 5.60 L 13.33 0.00 L 16.57 -5.60 L 23.03 -5.60 Z"/>
+<path d="M 26.27 11.43 L 23.03 17.03 L 16.57 17.03 L 13.33 11.43 L 16.57 5.83 L 23.03 5.83 Z"/>
+    </g>
+    <circle cx="0" cy="0" r="20.5" class="planetoutline"/>
+    <path d="M -12 -12 A 20.5 20.5 0 0 0 -12 10 A 15 15 0 0 1 -12 -12 Z" class="planethighlight"/>
+  </g>
+</svg>
