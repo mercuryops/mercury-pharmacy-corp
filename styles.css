@@ -176,7 +176,7 @@ p { line-height: 1.75; }
   display: inline-block;
   font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em;
   text-transform: uppercase; color: var(--gold);
-  border: 1px solid rgba(201,168,76,0.4);
+  border: 1px solid rgba(217,155,78,0.4);
   padding: 0.4rem 1rem; border-radius: 2rem;
   margin-bottom: 2rem;
 }
@@ -274,7 +274,7 @@ p { line-height: 1.75; }
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .pharmacy-card:hover { transform: translateY(-6px); box-shadow: 0 24px 60px rgba(0,0,0,0.4); }
-.pharmacy-card--featured { border-color: rgba(201,168,76,0.4); }
+.pharmacy-card--featured { border-color: rgba(217,155,78,0.4); }
 .card-img-wrap { height: 220px; overflow: hidden; }
 .card-img-wrap img { transition: transform 0.5s ease; }
 .pharmacy-card:hover .card-img-wrap img { transform: scale(1.05); }
@@ -305,7 +305,7 @@ p { line-height: 1.75; }
 }
 .pillar {
   background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(201,168,76,0.2);
+  border: 1px solid rgba(217,155,78,0.2);
   border-radius: 8px; padding: 2rem;
 }
 .pillar-icon { font-size: 0.5rem; color: var(--gold); margin-bottom: 1rem; }
@@ -454,4 +454,29 @@ p { line-height: 1.75; }
   .footer-links { grid-template-columns: 1fr 1fr; }
   .footer-bottom { flex-direction: column; text-align: center; }
   .pharmacy-cards { grid-template-columns: 1fr; }
+}
+
+.hero-watermark {
+  position: absolute;
+  top: 50%; right: 4%;
+  width: min(480px, 45vw); height: auto;
+  transform: translateY(-50%);
+  opacity: 0.16;
+  z-index: 1;
+  pointer-events: none;
+}
+@media (max-width: 900px) { .hero-watermark { display: none; } }
+
+.hero-brand-name {
+  font-family: 'Cinzel', Georgia, serif;
+  font-weight: 700;
+  font-size: clamp(1rem, 1.6vw, 1.35rem);
+  letter-spacing: 0.14em;
+  color: var(--white);
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: 1rem;
+}
+@media (max-width: 480px) {
+  .hero-brand-name { white-space: normal; letter-spacing: 0.08em; }
 }
